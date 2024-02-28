@@ -1,0 +1,64 @@
+body{
+    background-image: url(/src/assets/iphone2.jpg);
+    background-repeat: no-repeat;
+    background-size: 25vw;
+    overflow-x: hidden; /* Desativa a barra de rolagem horizontal */
+    overflow-y: hidden; /* Desativa a barra de rolagem vertical */
+    background-position: center;
+    background-color: rgb(248, 186, 94);
+  
+    
+
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+   
+
+   
+
+}
+.initialtext {
+    font-size: 2rem;
+    margin-top: 3rem;
+   
+    
+}
+
+
+.cronometro{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+   
+    
+
+}
+
+main h2{
+    color:black;
+    font-size: 5rem;
+   
+    height: 30vh;
+    margin-top: 12rem;
+}
+button{
+    width: 5vw;
+    height: 5vh;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 30px;
+    
+    
+}
+button:hover{
+    background: rgb(223, 213, 84);
+    color:#303030;
+}
